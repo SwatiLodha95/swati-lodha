@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .main{
+            height: 80px;
+            width: 50%;
+            background-color: burlywood;
+        }
+        h1{
+            color: blue;
+        }
+    @media screen and (max-width: 360px) {
+        .main{
+        
+            background-color: blueviolet;
+        }
+        h1{
+          color: aqua;
+        }
+    }
+    @media screen and (min-width: 375px) and (max-width: 380px){
+        
+        .main{
+            background-color: antiquewhite;
+            font-size: -2rem;
+        }
+        h1{
+            color: black;
+        }
+    }
+</style>
+    
+</head>
+<body>
+
+      <div class="main">
+          <h1>This is main Heading</h1>
+      </div> 
+</body>
+</html>

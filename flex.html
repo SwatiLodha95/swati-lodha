@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .main{
+            height: 80vh;
+            width: 100%;
+            background-color: green;
+            position: fixed;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .box1{
+            height: 90px;
+            width: 60px;
+            background-color: palevioletred;
+            color: black;
+            flex-grow: .5;
+        }
+        .box2{
+            height: 80px;
+            width: 80px;
+            background-color: royalblue;
+            color: black;
+
+        }
+        .box3{
+            height: 60px;
+            width: 60px;
+            background-color: cadetblue;
+            color: black;
+
+        }
+        .box4{
+            height: 40px;
+            width: 40px;
+            background-color: yellowgreen;
+            color: black;
+
+        }
+    </style>
+</head>
+<body>
+   <div class="main">
+       <div class="box1">
+           box1
+       </div>
+       <div class="box2">
+           box2
+       </div>
+       <div class="box3">
+           box3
+       </div>
+       <div class="box4">
+           box4
+       </div>
+   </div> 
+</body>
+</html>

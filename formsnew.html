@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form2</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        background-color: rgb(156, 100, 148);
+        text-align: center;
+        align-items: center;
+        align-content: center;
+
+
+
+    }
+</style>
+
+<body>
+
+    <form>
+        <h1>Personal Information</h1>
+                <label for="fname">First Name :</label>
+                <input type="text" id="name" name="name"><br>
+            
+                <label for="pword">Password:</label>
+                <input type="text" id="name" name="password"><br>
+    
+                <label for="email">Email-ID:</label>
+                <input type="email" id="name" name="email"><br>
+                Gender:<input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female<br>
+            <label for="Phone">Contact:</label>
+            <input type="tel" id="phone" name="contact" required><br>
+            <h1>Educational Qualification</h1>
+            <label for="degree">Degree:</label>
+    <select id="degree" name="degree">
+        <option value="--Select Group--">--Select Group--</option>
+        <option value="PCM">PCM</option>
+        <option value="CSM">CSM</option>
+        <option value="CAS">CAS</option>
+        <option value="CAM">CAM</option>
+                </select><br>
+<label for="Msc">Msc:</label>
+<select id="Msc" name="Msc">
+    <option value="--select group--">--select group--</option>
+    <option value="biology">biology</option>
+    <option value="microbiology">microbiology</option>
+    <option value="compter application">computer application</option>
+    <option value="computer science">computer science</option>
+</select><br>
+Hobbies: <label for="playing guitar">playing guitar</label>
+<input type="checkbox" id="playing guitar" name="playing guitar">
+<label for="reading books">reading books</label>
+<input type="checkbox" id="reading books" name="reading books">
+<label for="singing song">singing song</label>
+<input type="checkbox" id="playing cards" name="playing cards">
+<h1>Address:</h1>
+<label for="address">address:</label>
+<textarea name="address" id="address" cols="30" rows="5"></textarea><br>
+Attach Resume:<input type="file" name="resume"><br>
+<input type="submit" class="button" value="submit">
+    </form>
+
+</body>
+
+</html>

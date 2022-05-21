@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIMATION</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .box{
+            height: 80px;
+            width: 80px;
+            border-radius: 80%;
+            background-color: rgb(170, 171, 207);
+            color: teal;
+            animation: Anim1 5s;
+            animation-iteration-count: 5;
+            animation-delay: 1s;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+
+        }
+        @keyframes Anim1{
+            from{
+                margin: 0px;
+            }
+            to{
+                margin-top: 10rem;
+                margin-left: 10rem;
+                background-color: rgb(30, 48, 63);
+                transform:matrix(25);
+                height: 200px;
+                width: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        Box
+    </div>
+</body>
+</html>
